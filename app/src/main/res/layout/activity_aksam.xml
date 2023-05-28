@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#514C4C"
+    tools:context=".Aksam">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginBottom="627dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/imagehamburger"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/hamburger"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/texthamburger"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="HAMBURGER"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/cerceveince"/>
+
+            <Button
+                android:id="@+id/butonhamburger"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/loginlinearbackground"
+                android:text="EKLE" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginBottom="527dp"
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/imagepizza"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/pizza" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textpizza"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="PİZZA"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/cerceveince"/>
+
+            <Button
+                android:id="@+id/butonpizza"
+                android:layout_width="180dp"
+                android:background="@drawable/loginlinearbackground"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="EKLE" />
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="220dp"
+            android:layout_marginBottom="427dp"
+            android:orientation="horizontal" >
+            <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/imagesosisli"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sosisli" />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/textsosisli"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="SOSİSLİ"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/cerceveince"/>
+
+            <Button
+                android:id="@+id/butonsosisli"
+                android:layout_width="180dp"
+                android:background="@drawable/loginlinearbackground"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="EKLE" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="320dp"
+            android:layout_marginBottom="327dp"
+            android:orientation="horizontal" >
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:id="@+id/imageetsis"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentTop="true"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/etsis" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textetsis"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ET ŞİŞ"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/cerceveince"/>
+
+            <Button
+                android:id="@+id/butonetsis"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/loginlinearbackground"
+                android:layout_weight="1"
+                android:text="EKLE" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="420dp"
+            android:layout_marginBottom="227dp"
+            android:orientation="horizontal" >
+            <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/imagesushi"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/sushi" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textsushi"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="SUSHI"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/cerceveince"/>
+
+            <Button
+                android:id="@+id/butonsushi"
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/loginlinearbackground"
+                android:layout_weight="1"
+                android:text="EKLE" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="520dp"
+            android:layout_marginBottom="127dp"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/imagetavuk"
+                android:layout_width="120dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tavuk" />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/texttavuk"
+                android:layout_width="265dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="TAVUK"
+                android:textSize="25sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@drawable/cerceveince"/>
+
+            <Button
+                android:id="@+id/butontavuk"
+                android:layout_width="180dp"
+                android:background="@drawable/loginlinearbackground"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="EKLE" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/butonaksamgeri"
+            android:layout_width="118dp"
+            android:layout_height="64dp"
+            android:layout_below="@+id/butooon"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="275dp"
+            android:layout_marginBottom="25dp"
+            android:text="GERİ DÖN"
+            android:background="@drawable/shape"
+            tools:ignore="UnknownId" />
+
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

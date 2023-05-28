@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#514C4C"
+    tools:context=".Kayit">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="410dp"
+        android:layout_height="334dp"
+        android:layout_marginTop="140dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextAdSoyad"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/cerceveince"
+            android:backgroundTint="#D68787"
+            android:ems="10"
+            android:hint="Ad-Soyad : "
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHint="#454040" />
+
+        <EditText
+            android:id="@+id/editTextPass"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginEnd="-2dp"
+            android:layout_marginBottom="71dp"
+            android:background="@drawable/cerceveince"
+            android:backgroundTint="#D68787"
+            android:ems="10"
+            android:hint="Şifre:"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="#454040" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="410dp"
+        android:layout_height="155dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout2"
+        app:layout_constraintVertical_bias="0.108">
+
+        <Button
+            android:id="@+id/butongeri"
+            android:layout_width="142dp"
+            android:layout_height="103dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/butonrengi"
+            android:text="GERİ DÖN"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/butonkayitol"
+            android:layout_width="142dp"
+            android:layout_height="103dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/butonrengi"
+            android:text="KAYIT OL"
+            android:textSize="17dp"
+            android:onClick="sendData"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textViewFitlife"
+        android:layout_width="365dp"
+        android:layout_height="102dp"
+        android:background="@drawable/cercevekalin"
+        android:gravity="center"
+        android:text="FITLIFE"
+        android:textColor="@color/Fitlife"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

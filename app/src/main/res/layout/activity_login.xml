@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#514C4C"
+    tools:context=".Login">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="408dp"
+        android:layout_height="317dp"
+        android:background="@drawable/loginlinearbackground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/mailText"
+            android:layout_width="344dp"
+            android:layout_height="64dp"
+            android:layout_alignStart="@+id/passText"
+            android:layout_alignEnd="@+id/passText"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-1dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="86dp"
+            android:background="@drawable/cerceveince"
+            android:ems="10"
+            android:hint="E-Mail:"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColorHint="#454040"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/passText"
+            android:layout_width="344dp"
+            android:layout_height="64dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="39dp"
+            android:layout_marginBottom="141dp"
+            android:background="@drawable/cerceveince"
+            android:ems="10"
+            android:hint="Şifre:"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="#454040"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/kosubandi"
+            android:layout_width="79dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="271dp"
+            android:layout_marginEnd="48dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/fitnesspicture1" />
+
+        <ImageView
+            android:id="@+id/tarti"
+            android:layout_width="79dp"
+            android:layout_height="76dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="38dp"
+            android:layout_marginBottom="32dp"
+            app:srcCompat="@drawable/fitnesspicture2" />
+
+        <ImageView
+            android:id="@+id/halter"
+            android:layout_width="87dp"
+            android:layout_height="79dp"
+            android:layout_alignBottom="@+id/passText"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="172dp"
+            android:layout_marginBottom="-111dp"
+
+            app:srcCompat="@drawable/fitnesspicture3" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="413dp"
+        android:layout_height="144dp"
+        android:background="@drawable/fitnessbackground1"
+        android:gravity="center"
+        android:textColor="@color/Fitlife"
+        android:textSize="40dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.523" />
+
+    <TextView
+        android:id="@+id/Fitlife"
+        android:layout_width="150dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="16dp"
+        android:text="FITLIFE"
+        android:textColor="@color/Fitlife"
+        android:textSize="45dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/yaFityaFat"
+        android:layout_width="122dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="116dp"
+        android:text="Ya Fitsindir Ya Fat.."
+        android:textColor="@color/Fitlife"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.716" />
+
+    <RelativeLayout
+        android:layout_width="408dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        app:layout_constraintVertical_bias="0.17" />
+
+    <Button
+        android:id="@+id/butongiris"
+        android:layout_width="137dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="52dp"
+        android:background="@drawable/butonrengi"
+        android:text="GİRİŞ YAP"
+        android:textSize="17dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+    <Button
+        android:id="@+id/butonkayit"
+        android:layout_width="137dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/butonrengi"
+        android:text="KAYIT OL"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "374382857408",
+    "project_id": "fitness-uygulamasi-7beaf",
+    "storage_bucket": "fitness-uygulamasi-7beaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374382857408:android:0edf35c9b76b2f3a4cf125",
+        "android_client_info": {
+          "package_name": "com.example.fitnessuygulamasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374382857408-n0g41mp2illmqs5v8g01g94kteo1uvki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9jAETzOTguoeeHEseU9yBTdOjks5WPAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374382857408-n0g41mp2illmqs5v8g01g94kteo1uvki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

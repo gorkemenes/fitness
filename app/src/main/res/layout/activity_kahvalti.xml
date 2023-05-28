@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#514C4C"
+    tools:context=".Kahvalti">
+
+
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:layout_editor_absoluteX="1dp"
+                    tools:layout_editor_absoluteY="1dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginBottom="627dp"
+                            android:layout_marginTop="20dp"
+                            android:orientation="horizontal" >
+
+                            <LinearLayout
+                                android:layout_width="160dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                               >
+
+                                <ImageView
+                                    android:id="@+id/imageyumurta"
+                                    android:layout_width="120dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/yumurta" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textyumurta"
+                                android:layout_width="265dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="YUMURTA"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:background="@drawable/cerceveince"/>
+
+                            <Button
+                                android:id="@+id/butonyumurta"
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="EKLE"
+                                android:background="@drawable/loginlinearbackground"/>
+
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="120dp"
+                            android:layout_marginBottom="527dp"
+                            android:orientation="horizontal" >
+                            <LinearLayout
+                                android:layout_width="160dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                                >
+
+                                <ImageView
+                                    android:id="@+id/imagepatates"
+                                    android:layout_width="120dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/patateskizartmasi" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textpatates"
+                                android:layout_width="265dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="P. KIZARTMASI"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:background="@drawable/cerceveince"/>
+
+                            <Button
+                                android:id="@+id/butonpatates"
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/loginlinearbackground"
+                                android:text="EKLE"
+                                />
+
+
+                        </LinearLayout>
+
+
+
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="220dp"
+                            android:layout_marginBottom="427dp"
+                            android:orientation="horizontal" > <LinearLayout
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1"
+                            >
+
+                            <ImageView
+                                android:id="@+id/imagekasar"
+                                android:layout_width="120dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentTop="true"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/kasarpeyniri" />
+                        </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textkasar"
+                                android:layout_width="265dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="KAŞAR PEYNİRİ"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:background="@drawable/cerceveince"/>
+
+                            <Button
+                                android:id="@+id/butonkasar"
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="EKLE"
+                                android:background="@drawable/loginlinearbackground"
+                                />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="320dp"
+                            android:layout_marginBottom="327dp"
+                            android:orientation="horizontal" >
+                            <LinearLayout
+                                android:layout_width="160dp"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:layout_weight="1"
+                                >
+
+                                <ImageView
+                                    android:id="@+id/imagezeytin"
+                                    android:layout_width="120dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_weight="1"
+                                    app:srcCompat="@drawable/zeytin" />
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textzeytin"
+                                android:layout_width="265dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="ZEYTİN"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:background="@drawable/cerceveince"/>
+
+                            <Button
+                                android:id="@+id/butonzeytin"
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/loginlinearbackground"
+                                android:text="EKLE" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentStart="true"
+
+                            android:layout_alignParentTop="true"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="420dp"
+                            android:layout_marginBottom="227dp"
+                            android:orientation="horizontal" > <LinearLayout
+                            android:layout_width="160dp"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal"
+                            android:layout_weight="1"
+                            >
+
+                            <ImageView
+                                android:id="@+id/imagedomates"
+                                android:layout_width="120dp"
+                                android:layout_height="match_parent"
+                                android:layout_alignParentTop="true"
+                                android:layout_weight="1"
+                                app:srcCompat="@drawable/domates" />
+                        </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/textdomates"
+                                android:layout_width="265dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="DOMATES"
+                                android:textSize="25sp"
+                                android:textColor="@color/black"
+                                android:gravity="center"
+                                android:background="@drawable/cerceveince"/>
+
+                            <Button
+                                android:id="@+id/butondomates"
+                                android:layout_width="180dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@drawable/loginlinearbackground"
+                                android:text="EKLE" />
+
+
+                        </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="520dp"
+                        android:layout_marginBottom="127dp"
+                        android:orientation="horizontal" > <LinearLayout
+                        android:layout_width="160dp"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        >
+
+                        <ImageView
+                            android:id="@+id/imageekmek"
+                            android:layout_width="120dp"
+                            android:layout_height="match_parent"
+                            android:layout_alignParentTop="true"
+                            android:layout_weight="1"
+                            app:srcCompat="@drawable/ekmek" />
+                    </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/textekmek"
+                            android:layout_width="265dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:text="EKMEK"
+                            android:textSize="25sp"
+                            android:textColor="@color/black"
+                            android:gravity="center"
+                            android:background="@drawable/cerceveince"/>
+
+                        <Button
+                            android:id="@+id/butonekmek"
+                            android:layout_width="180dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/loginlinearbackground"
+                            android:text="EKLE" />
+
+
+                    </LinearLayout>
+
+
+                    <Button
+                        android:id="@+id/butonsabahgeri"
+                        android:layout_width="118dp"
+                        android:layout_height="64dp"
+                        android:layout_below="@+id/butooon"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginTop="29dp"
+                        android:layout_marginEnd="275dp"
+                        android:layout_marginBottom="25dp"
+                        android:text="GERİ DÖN"
+                        android:background="@drawable/shape"
+                        tools:ignore="UnknownId" />
+
+
+                </RelativeLayout>
+
+</RelativeLayout>
+
+
